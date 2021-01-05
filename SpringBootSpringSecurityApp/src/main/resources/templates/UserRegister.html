@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<H3>WELCOME TO USER REGISTER PAGE</H3>
+<form action="/save" method="POST">
+<pre>
+NAME  : <input type="text" name="userName"/>
+EMAIL  : <input type="text" name="userMail"/>
+PASSWORD  : <input type="password" name="password"/>
+Roles  : 
+ <input type="checkbox" name="roles" value="ADMIN"> ADMIN
+ <input type="checkbox" name="roles" value="MANAGER"> MANAGER
+	<input type="submit" value="Register"/> 
+</pre>
+</form>
+<b>${message}</b>
+</body>
+</html>
